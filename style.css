@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.baslik{
+    background-color: #FCB813;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#anasayfa-baslik{
+    font-size: 30px;
+    color: #A20531;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.anasayfa-aciklama{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 18px; 
+    color: #333; 
+    line-height: 1.6; 
+    text-align: justify; 
+}
+.linkler{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px
+}
+.linkler a {
+    text-decoration: none;
+    color: black; 
+    padding: 10px 20px; 
+    background-color: #A20531; 
+    border-radius: 5px; 
+}
+
+.linkler a:hover {
+    background-color: #FCB813; 
+    color: white; 
+}
+.anasayfa-aciklama{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.anasayfa-aciklama h3{
+    color: #FCB813;
+}
+.anasayfa-aciklama ul{
+    list-style-type: none;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.images div {
+    text-align: center;
+}
+
+.images img {
+    width: 200px; 
+    height: auto;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.images p {
+    font-size: 16px;
+    color: black;
+}
+
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6; 
+    text-align: justify; 
+}
+.about h3{
+    color: #FCB813;
+}
+
+.about p {
+    margin: 0;
+    padding: 0;
+}
